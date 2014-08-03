@@ -1,0 +1,57 @@
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.content {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+}
+
+h1 {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+h3 {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.centertext {
+	text-align: center;
+}
+
+p {
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+#navbar {
+	position: fixed;
+	margin-left: -150px;
+	height:100px;
+	width:120px;
+	background-color:#000;
+	color: #fff;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 10px;
+}
+
+#navbar a:visited {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 10px;
+}
+
+#navbar a:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: yellow;
+	margin-left: 10px;
+}
