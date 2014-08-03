@@ -13,7 +13,7 @@ Welcome to Skate Where
 	<h3><a href="/add">add</a></h3>
 </div>
 
-	<h1 class="centertext">keep the session rolling</h1>
+	<h1 class="centertext notification">keep the session rolling</h1>
 
 </div>
 

@@ -11,7 +11,9 @@ all the spots
 <div id="navbar">
 	<h3><a href="/spots">spots</a></h3>	
 	<h3><a href="/add">add</a></h3>
-</div>	
+</div>
+
+<h1 class="centertext notification">the spots</h1>	
 
 <?php $spots = Spot::all(); ?>
 @foreach ($spots as $spot)

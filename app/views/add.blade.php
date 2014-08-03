@@ -13,7 +13,7 @@ add a new spot
 	<h3><a href="/add">add</a></h3>
 </div>
 
-	<h1 class="centertext">add a new spot</h1>
+	<h1 class="centertext notification">add a new spot</h1>
 
 
 	{{ Form::open(array('url' => '/add', 'method' => 'POST')) }}
