@@ -8,31 +8,36 @@ add a new spot
 
 <div class="content">
 
-<h1 class="centertext">add a new spot</h1>
+<div id="navbar">
+	<h3><a href="/spots">spots</a></h3>	
+	<h3><a href="/add">add</a></h3>
+</div>
+
+	<h1 class="centertext">add a new spot</h1>
 
 
-{{ Form::open(array('url' => '/add', 'method' => 'POST')) }}
+	{{ Form::open(array('url' => '/add', 'method' => 'POST')) }}
 
 <div class='centertext logo'>
-{{ Form::label('title') }}
-{{ Form::text('title') }}
+	{{ Form::label('title') }}
+	{{ Form::text('title') }}
 </div>
 
 <div class='centertext logo'>
-{{ Form::label('location') }}
-{{ Form::text('location') }}
+	{{ Form::label('location') }}
+	{{ Form::text('location') }}
 </div>
 
 <div class='centertext logo'>
-{{ Form::label('description') }}
-{{ Form::text('description') }}
+	{{ Form::label('description') }}
+	{{ Form::text('description') }}
 </div>
 
 <div class='centertext'>
-{{ Form::submit('Add') }}
+	{{ Form::submit('submit') }}
 </div>
 
-{{ Form::close() }}
+	{{ Form::close() }}
 
 </div>
 
