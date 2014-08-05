@@ -1,7 +1,7 @@
 @extends('_master')
 
 @section('title')
-Welcome to Skate Where
+spots
 @stop
 
 @section('content')
@@ -11,6 +11,11 @@ Welcome to Skate Where
 <div id="navbar">
 	<h3><a href="/spots">all</a></h3>	
 	<h3><a href="/add">add</a></h3>
+	@if(Auth::check())
+    <a href='/logout'>logout {{ Auth::user()->email; }}</a>
+@else 
+    <a href='/signup'>sign-up</a> or <a href='/login'>login</a>
+@endif
 </div>
 
 	<h1 class="centertext notification">keep the session rolling</h1>

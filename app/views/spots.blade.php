@@ -11,6 +11,9 @@ all the spots
 <div id="navbar">
 	<h3><a href="/spots">all</a></h3>	
 	<h3><a href="/add">add</a></h3>
+	<h3><a href="/signup">sign-up</a></h3>
+	<h3><a href="/login">login</a></h3>
+	<h3><a href="/logout">logout</a></h3>
 </div>
 
 <h1 class="centertext notification">all</h1>	
