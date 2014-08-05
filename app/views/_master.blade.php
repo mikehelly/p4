@@ -12,7 +12,7 @@
 </head>
 <body>
 
-	<a href='/'><img class='logo' src='<?php echo URL::asset('/images/skatewhere.jpg'); ?>' alt='Skate Where Logo'></a>
+	<a href='/'><img class='logo' src='<?php echo URL::asset('/images/spots_baskerville.png'); ?>' alt='Skate Where Logo'></a>
 
 @yield('content')
 

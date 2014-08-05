@@ -9,31 +9,31 @@ all the spots
 <div class="content">
 
 <div id="navbar">
-	<h3><a href="/spots">spots</a></h3>	
+	<h3><a href="/spots">all</a></h3>	
 	<h3><a href="/add">add</a></h3>
 </div>
 
-<h1 class="centertext notification">the spots</h1>	
+<h1 class="centertext notification">all</h1>	
 
 <?php $spots = Spot::all(); ?>
 @foreach ($spots as $spot)
 
-<h1 class="centertext">
-{{ $spot['title'] }}
-</h1>
 <h3 class="centertext">
-near {{ $spot['location'] }}
+{{ $spot['title'] }}
 </h3>
+<p class="centertext">
+near {{ $spot['location'] }}
+</p>
 <iframe
   width="800"
   height="400"
   frameborder="0" style="border:0"
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBvh_CaQdZnbbXI04fqMHLiwSexlO6_bDc
-    &q={{ $spot['location'] }}">
+    &q={{ $spot['location'] }}&maptype=satellite&zoom=18">
 </iframe><br>
-<h3 class="centertext">
+<p class="centertext">
 {{ $spot['description'] }}<br>
-</h3>
+</p>
 <br>
 
 @endforeach

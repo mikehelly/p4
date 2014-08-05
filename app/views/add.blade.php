@@ -9,7 +9,7 @@ add a new spot
 <div class="content">
 
 <div id="navbar">
-	<h3><a href="/spots">spots</a></h3>	
+	<h3><a href="/spots">all</a></h3>	
 	<h3><a href="/add">add</a></h3>
 </div>
 
@@ -19,20 +19,20 @@ add a new spot
 	{{ Form::open(array('url' => '/add', 'method' => 'POST')) }}
 
 <div class='centertext logo'>
-	{{ Form::label('title') }}
+	{{ Form::label('name') }}<br>
 	{{ Form::text('title') }}
 </div>
 
 <div class='centertext logo'>
-	{{ Form::label('location') }}
+	{{ Form::label('address') }}<br>
 	{{ Form::text('location') }}
 </div>
 
 <div class='centertext logo'>
-	{{ Form::label('description') }}
+	{{ Form::label('what is it?') }}<br>
 	{{ Form::text('description') }}
 </div>
-
+<br>
 <div class='centertext'>
 	{{ Form::submit('submit') }}
 </div>
