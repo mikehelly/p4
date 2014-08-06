@@ -36,10 +36,21 @@ p {
 	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 }
 
+h1 a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 a:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: yellow;
+}
+
 #navbar {
 	position: fixed;
 	margin-left: -130px;
-	height:210px;
+	height:140px;
 	width:120px;
 	background-color:#000;
 	color: #fff;

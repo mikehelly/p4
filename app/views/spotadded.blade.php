@@ -11,9 +11,11 @@ spot added
 <div id="navbar">
 	<h3><a href="/spots">all</a></h3>	
 	<h3><a href="/add">add</a></h3>
-	<h3><a href="/signup">sign-up</a></h3>
-	<h3><a href="/login">login</a></h3>
-	<h3><a href="/logout">logout</a></h3>
+	@if(Auth::check())
+    <h3><a href='/logout'>logout</a></h3>
+@else 
+    <h3><a href='/login'>login</a>
+@endif
 </div>
 
 	<h1 class="centertext notification">added a spot</h1>

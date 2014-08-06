@@ -63,9 +63,14 @@ Route::get('/practice-reading', function() {
 
 });
 
-Route::get('/add', function()
-{
-    return View::make('add');
+Route::get('/add', 
+        function() { 
+    if (
+                Auth::check()) {
+                    return View::make('add'); }
+                else {
+                    return View::make('signup');
+                }
 });
 
 # Process add form
@@ -80,13 +85,18 @@ Route::post('/add/', function() {
 	# Magic: Eloquent
 	$spot->save();
 	
-	return View::make('spotadded');;
+	return View::make('spotadded');
 		
 });
 
-Route::get('/spots', function()
-{
-    return View::make('spots');
+Route::get('/spots',
+        function() { 
+            if (
+                Auth::check()) {
+                    return View::make('spots'); }
+                else {
+                    return View::make('signup');
+                }
 });
 
 Route::get('/signup',
