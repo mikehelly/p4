@@ -26,7 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('*'),
+	'local' => array('Michaels-MacBook-Pro.local'),
+	'production' => array('ex-std-node286.prod.rhcloud.com'),
 
 ));
 
