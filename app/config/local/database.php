@@ -29,6 +29,7 @@ return array(
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
+			'unix_socket' => '/tmp/mysql.sock’,
 		),
 
 		'pgsql' => array(
