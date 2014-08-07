@@ -22,14 +22,13 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => 'ex-std-node286.prod.rhcloud.com',
 			'database'  => 'p4',
 			'username'  => 'adminzELlqGD',
 			'password'  => 'WJspQfL4Heci',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-			'unix_socket' => '/tmp/mysql.sock’,
 		),
 
 		'pgsql' => array(
