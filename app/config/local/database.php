@@ -23,6 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'ex-std-node286.prod.rhcloud.com',
+			'port'      => '3306'
 			'database'  => 'p4',
 			'username'  => 'adminzELlqGD',
 			'password'  => 'WJspQfL4Heci',
