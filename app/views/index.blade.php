@@ -14,7 +14,7 @@ spots
 	@if(Auth::check())
     <h3><a href='/logout'>logout</a></h3>
 @else 
-    <h3><a href='/login'>login</a>
+    <h3><a href='/login'>login</a></h3>
 @endif
 </div>
 
