@@ -33,7 +33,7 @@ spots login
 </div>
     <br>
 <div class='centertext logo'>
-    {{ Form::submit('Submit') }}
+    {{ Form::submit('login') }}
 </div>
 
 {{ Form::close() }}

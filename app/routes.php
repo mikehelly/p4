@@ -16,14 +16,6 @@ Route::get('/', function()
 	return View::make('index');
 });
 
-Route::get('/practice', function() {
-
-    $fruit = Array('Apples', 'Oranges', 'Pears');
-
-    echo Pre::render($fruit,'Fruit');
-
-});
-
 Route::get('mysql-test', function() {
 
     # Use the DB component to select all the databases
@@ -31,35 +23,6 @@ Route::get('mysql-test', function() {
 
     # If the "Pre" package is not installed, you should output using print_r instead
     return Pre::render($results);
-
-});
-
-Route::get('/practice-creating', function() {
-
-    # Instantiate a new Book model class
-    $spot = new Spot();
-
-    # Set 
-    $spot->title = 'Ruggles Courts';
-    $spot->location = 'Ruggles T Station';
-    $spot->description = 'small ledges and manny pads at some basketball courts, good flatground';
-
-    # This is where the Eloquent ORM magic happens
-    $spot->save();
-
-    return 'A new spot has been added! Check your database to see...';
-
-});
-
-Route::get('/practice-reading', function() {
-
-    # The all() method will fetch all the rows from a Model/table
-    $spots = Spot::all();
-
-    # Typically we'd pass $books to a View, but for quick and dirty demonstration, let's just output here...
-    foreach($spots as $spot) {
-        echo $spot->title.'<br>';
-    }
 
 });
 

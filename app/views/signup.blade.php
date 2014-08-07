@@ -33,7 +33,7 @@ spots sign up
 </div>
 <br>
 <div class='centertext logo'>
-    {{ Form::submit('Submit') }}
+    {{ Form::submit('sign-up') }}
 </div>
 
 {{ Form::close() }}

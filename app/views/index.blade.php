@@ -20,7 +20,7 @@ spots
 
 	<h1 class="centertext notification">keep the session rolling</h1>
 
-	<p class="paragraph">spots is a way to keep track of different locations in your life. a spot is any place that you feel is worthy of mention, whether it be a nice restaurant, interesting art gallery or a good place to skate. add spots by title, address and description to start building your own personal library of spots.</p>
+	<p class="paragraph">Spots is a way to keep track of different locations in your life. A spot is any place that you feel is worthy of mention, whether it be a nice restaurant, interesting art gallery or a good place to skate. Add spots by title, address and description and start contributing to this awesome library of spots. You know what to do.</p>
 
 	<h1 class="centertext"><a href='/signup'>sign-up</a></h1>
 
